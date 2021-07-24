@@ -26,11 +26,11 @@ player.settings.balance
 
 ## Possible Values
 
-This property is a read/write **Number** (**long**). Values range from  100 to 100, with a default value of zero.
+This property is a read/write **Number** (**Double**). Values range from  -100 to 100, with a default value of zero.
 
 ## Remarks
 
-The value zero indicates that the audio plays at equal volume on both left and right channels. A value of  100 indicates that audio plays only on the left channel. A value of 100 indicates that audio plays only on the right channel.
+The value zero indicates that the audio plays at equal volume on both left and right channels. A value of  -100 indicates that audio plays only on the left channel. A value of 100 indicates that audio plays only on the right channel.
 
 ## Requirements
 
